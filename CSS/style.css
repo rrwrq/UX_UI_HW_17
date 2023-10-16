@@ -1,0 +1,52 @@
+h2{
+    font-size: 18px;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 30px;
+}
+
+.navigation{
+    background-color: rgb(161, 213, 178);
+    display: inline-block;
+    padding: 11px;
+    text-align: center;
+    float: right;
+}
+
+.content{
+    width: 50%;
+    background-color: bisque;
+    padding: 30px;
+    display: inline-block;
+    flex-direction: row;
+    float: left;
+    height: 300px;
+}
+
+.content img{
+    width: 40%;
+    float: right;
+    margin: 0 auto;
+}
+
+.navItem{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#projectHomepage{
+    background-color: rgb(255, 175, 175);
+    display: inline-block;
+    text-align: center;
+    padding: 100px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
