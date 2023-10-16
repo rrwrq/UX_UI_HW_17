@@ -1,34 +1,63 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 24px;
+}
+
 h2{
-    font-size: 18px;
+    font-size: 14px;
+    max-width: 300px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-weight: 300;
+    font-size: 12px;
+    max-width: 300px;
 }
 
 header{
     background-color: aquamarine;
     padding: 30px;
+    padding-left: 9%;
+    padding-right: 9%;
 }
 
 .navigation{
     background-color: rgb(161, 213, 178);
     display: inline-block;
-    padding: 11px;
+    padding: 10px;
     text-align: center;
     float: right;
 }
 
+.heroImg{
+    background-color: antiquewhite;
+    padding-left: 9%;
+    padding-right: 9%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
 .content{
     width: 50%;
-    background-color: bisque;
-    padding: 30px;
+    background-color: rgb(255, 193, 117);
+    padding-top: 48px;
+    padding-bottom: 48px;
     display: inline-block;
     flex-direction: row;
     float: left;
-    height: 300px;
+
 }
 
-.content img{
-    width: 40%;
+.portrait img{
     float: right;
-    margin: 0 auto;
 }
 
 .navItem{
@@ -39,14 +68,54 @@ header{
     background-color: antiquewhite;
 }
 
-#projectHomepage{
+.projectHomepage{
     background-color: rgb(255, 175, 175);
     display: inline-block;
-    text-align: center;
-    padding: 100px;
+    width: 82%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding-left: 9%;
+    padding-right: 9%;
+    flex-direction: column;
+}
+
+.projectHomepage img{
+    border-radius: 4%;
+    border: 10px black;
+    box-shadow: 10;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.floatRight{
+    float: right;
 }
 
 footer{
+    padding: 140px;
     background-color: black;
     color: white;
+}
+
+.footerItem1{
+    background-color: rgb(128, 128, 128);
+    list-style: none;
+    float: right;
+    padding: 19px;
+}
+
+.footerItem2{
+    background-color: rgb(142, 116, 231);
+    list-style: none;
+    float: right;
+}
+
+#footerText{
+    width: 50%;
+    background-color: rgb(129, 129, 129);
+    text-align: center;
+    float: left;
+    padding: 20px;
 }

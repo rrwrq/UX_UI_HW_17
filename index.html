@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&family=Young+Serif&display=swap" rel="stylesheet">
     <link href="CSS/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
@@ -19,31 +22,57 @@
     <div class="content" width="50%">
         <h1>Hi, I’m Mercury, a UX designer based in New York. I believed in shaping experiences with human-centered design.</h1>
     </div>
-    <div class="portrait" width="50%">
-    <img src="Images/Portrait.jpg" width="250px">
+    <div class="portrait">
+    <img src="Images/Portrait.jpg" width="254px">
     </div>   
 </section>
 
-<section id="projectHomepage">
-    <img src="Images/Green Tree.png" width="300px">
-    <img src="Images/Travel Paws.png" width="300px">
-    <img src="Images/Soul Meets.png" width="300px">
-    <img src="Images/Blank.png" width="300px">
+<section class="projectHomepage">
+    <div class="floatLeft">
+        <div id="greenTree">
+            <img src="Images/Green Tree.jpg" width="300px">
+            <h2>Green Tree | A textile recycling non-profit organization</h2>
+            <p>A non-profit organization responsive website redesign project</p>
+        </div>
+
+        <div id="soulMeets">
+            <img src="Images/Soul Meets.jpg" width="300px">
+            <h2>Soul Meets | Personality driven dating app</h2>
+            <p>Human-centered research and design resulting in combination of  social connection and science</p>
+        </div>
+    </div>
+
+    <div class="floatRight">
+        <div id="travelPaws">
+            <img src="Images/Travel Paws.jpg" width="300px">
+            <h2>Travel Paws | Pet-friendly traveling app</h2>
+            <p>Focuses on the transparency and reliability of traveling with your pet</p>
+        </div>
+
+        <div id="projectName">
+            <img src="Images/Project placeholder.jpg" width="300px">
+            <h2>Project Name</h2>
+            <p>Project description</p>
+        </div>
+    </div>
 </section>
 
 <footer>
+    <div id="footerText">
+        <h3>But it doesn’t end here.</h3>
+    </div>
+    <ul class="footerItem2">
+        <li><img src="Images/Mail open.png" width="24px"></li>
+        <li><img src="Images/linkedin.png" width="24px"></li>
+        <li><img src="Images/behance.png" width="24px"></li>
+        <li><img src="Images/phone.png" width="24px"></li>
+    </ul>
     <ul class="footerItem1">
         <li>shuxin_huang@fitnyc.edu</li>
         <li>LinkedIn</li>
         <li>Behance</li>
         <li>1(917)775-1506</li>
-      </ul>
-      <ul class="footerItem2">
-        <li><img src="Images/Mail open.png" width="24px"></li>
-        <li><img src="Images/linkedin.png" width="24px"></li>
-        <li><img src="Images/behance.png" width="24px"></li>
-        <li><img src="Images/phone.png" width="24px"></li>
-      </ul>
+    </ul>
 </footer>
 
 </body>
