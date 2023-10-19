@@ -120,42 +120,36 @@ footer{
     background-color: black;
     color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr 2px;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
     grid-template-areas: 
-    '.mailText .mailPic'
-    '.linkedinText .linkedinPic'
-    '.footerText .behanceText .behancePic'
-    '.phoneText .phonePic'
+    '.mailText .mailText'
+    '.footerText .linkedinText'
+    '.behanceText .behanceText'
+    '.phoneText .phoneText'
     ;
 }
 
-.gridContainer{
-    grid-template-columns: 1fr 1fr 2px;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    '.mailText .mailPic'
-    '.linkedinText .linkedinPic'
-    '.footerText .behanceText .behancePic'
-    '.phoneText .phonePic'
-    ;
+.mailText{
+    grid-area: mailText;
+    text-align: end;
 }
 
-.footerRight{
-    float:right;
+.linkedinText{
+    grid-area: linkedinText;
+    text-align: end;
 }
 
-.footerItem1{
-    background-color: rgb(128, 128, 128);
-    list-style: none;
-    padding: 20px;
-    display: inline-block;
+.behanceText{
+    grid-area: behanceText;
+    text-align: end;
+    background-color: antiquewhite;
+    margin-left: 200px;
 }
 
-.footerItem2{
-    background-color: rgb(142, 116, 231);
-    list-style: none;
-    display: inline-block;
+.phoneText{
+    grid-area: phoneText;
+    text-align: end;
 }
 
 .footerText{
@@ -168,6 +162,6 @@ footer{
 }
 
 .footerText h3{
-    margin-top: 16px;
+    margin-top: 20px;
     padding-top: 44px;
 }
