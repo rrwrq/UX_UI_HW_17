@@ -138,10 +138,56 @@ footer{
 
 .footerRight{
     padding-left: 3%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
 }
 
-.mailText img{
+.mailTextP{
     display: inline-block;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.mailTextImg{
+    margin-bottom: -5px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.linkedinTextP{
+    display: inline-block;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.linkedinTextImg{
+    margin-bottom: -5px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.behanceTextP{
+    display: inline-block;
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.behanceTextImg{
+    margin-bottom: -5px;
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.phoneTextP{
+    display: inline-block;
+    grid-row: 1/2;
+    grid-column: 5/6;
+}
+
+.phoneTextImg{
+    margin-bottom: -5px;
+    grid-row: 5/6;
+    grid-column: 2/3;
 }
