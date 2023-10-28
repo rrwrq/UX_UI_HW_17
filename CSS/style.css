@@ -119,9 +119,12 @@ footer{
     padding: 140px;
     background-color: black;
     color: white;
+}
+
+.gridContainer{
     display: grid;
-    grid-gap: 50px;
-    ;
+    grid-gap: 300px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .mailText .linkedinText .behanceText .phoneText{
@@ -141,6 +144,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: end;
 }
 
 .mailText{
@@ -151,7 +155,7 @@ footer{
 
 .mailImg{
     padding-left: 30px;
-    justify-content: center;
+    justify-content: end;
     display: grid;
 }
 
@@ -161,13 +165,9 @@ footer{
     justify-content: end;
 }
 
-.linkedinTextP{
-    margin-right: 44.46px;
-}
-
 .linkedinTextImg{
     padding-left: 30px;
-    justify-content: center;
+    justify-content: end;
     display: grid;
 }
 
@@ -179,7 +179,7 @@ footer{
 
 .behanceTextImg{
     padding-left: 30px;
-    justify-content: center;
+    justify-content: end;
     display: grid;
 }
 
@@ -191,6 +191,6 @@ footer{
 
 .phoneTextImg{
     padding-left: 30px;
-    justify-content: center;
+    justify-content: end;
     display: grid;
 }
